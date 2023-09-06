@@ -1,0 +1,27 @@
+POST localhost:8080/person
+Content-Type: application/json
+Accept: application/xml
+
+{
+  "firstname": "Max",
+  "surname": "Meiner"
+}
+
+###
+
+PUT localhost:8080/person/1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "firstname": "Bernd",
+  "surname": "Heidemann-Meier"
+}
+
+###
+
+GET localhost:8080/person
+
+###
+
+DELETE localhost:8080/person/1
